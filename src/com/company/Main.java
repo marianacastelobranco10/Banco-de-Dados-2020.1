@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         Aluno aluno = new Aluno();
+        Disciplina BD = new Disciplina();
         aluno.setName("Mariana");
         aluno.setId(1);
         aluno.nota1 = 3.5;
